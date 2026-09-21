@@ -17,6 +17,7 @@ eigenen Chrome öffnen -> Rechtsklick auf eine Pressemitteilung ->
 from __future__ import annotations
 
 import hashlib
+import re
 import sys
 from datetime import datetime, timezone
 from email.utils import format_datetime
@@ -25,6 +26,11 @@ from urllib.parse import urljoin
 from xml.sax.saxutils import escape
 
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
+
+# "PUBLISHED ON, SEP 14, 2026" -> ("SEP", "14", "2026")
+PUBLISHED_ON_RE = re.compile(
+    r"PUBLISHED\s+ON,?\s*([A-Za-z]{3,9})\s+(\d{1,2}),?\s*(\d{4})", re.IGNORECASE
+)
 
 SOURCE_URL = "https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases.html"
 SITE_URL = "https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom.html"
@@ -134,23 +140,113 @@ def extract_items(page) -> list[dict]:
         if date_el is not None:
             date_text = date_el.get_attribute("datetime") or (date_el.inner_text() or "").strip()
 
-        summary_el = card.query_selector("p") or card.query_selector('[class*="teaser"], [class*="text"]')
-        summary = (summary_el.inner_text() or "").strip() if summary_el else ""
+        # Auf der Übersichtsseite gibt's keinen echten Teaser-Text
+        # (die Seite hat "show_reading_teaser" deaktiviert) - hier steht
+        # meist nur eine Autoren-/Datumszeile wie "PUBLISHED ON, SEP 14,
+        # 2026". Die heben wir separat auf, um daraus notfalls das echte
+        # Datum zu ziehen, aber sie wird NICHT als Zusammenfassung benutzt.
+        byline_el = card.query_selector("p") or card.query_selector('[class*="teaser"], [class*="text"]')
+        byline_text = (byline_el.inner_text() or "").strip() if byline_el else ""
 
-        items.append({"title": title, "url": url, "date": date_text, "summary": summary})
+        if not date_text:
+            m = PUBLISHED_ON_RE.search(byline_text)
+            if m:
+                date_text = f"{m.group(1)} {m.group(2)}, {m.group(3)}"
+
+        # Bild der Kachel als Fallback einsammeln (lazy-loading-sicher:
+        # src, data-src und srcset werden alle geprüft).
+        image_url = None
+        img_el = card.query_selector("img")
+        if img_el is not None:
+            raw = (
+                img_el.get_attribute("src")
+                or img_el.get_attribute("data-src")
+                or (img_el.get_attribute("srcset") or "").split(",")[0].strip().split(" ")[0]
+            )
+            if raw and not raw.startswith("data:"):
+                image_url = urljoin(SOURCE_URL, raw)
+
+        items.append({
+            "title": title,
+            "url": url,
+            "date": date_text,
+            "byline": byline_text,
+            "summary": "",
+            "image": image_url,
+        })
 
     return items[:MAX_ITEMS]
 
 
 def parse_date(date_text: str | None) -> datetime:
     if date_text:
-        for fmt in ("%Y-%m-%d", "%Y-%m-%dT%H:%M:%S", "%d.%m.%Y", "%B %d, %Y", "%d %B %Y"):
+        candidate = date_text.strip()
+        for fmt in (
+            "%Y-%m-%d",
+            "%Y-%m-%dT%H:%M:%S",
+            "%d.%m.%Y",
+            "%B %d, %Y",
+            "%b %d, %Y",
+            "%d %B %Y",
+        ):
             try:
-                dt = datetime.strptime(date_text[: len(fmt) + 10].strip(), fmt)
+                # .title() macht z.B. "SEP 14, 2026" -> "Sep 14, 2026",
+                # was strptime mit %b/%B erwartet; bei rein numerischen
+                # Formaten ändert .title() nichts.
+                dt = datetime.strptime(candidate[: len(fmt) + 10].strip().title(), fmt)
                 return dt.replace(tzinfo=timezone.utc)
             except ValueError:
                 continue
     return datetime.now(timezone.utc)
+
+
+def fetch_details(context, url: str, fallback_summary: str, fallback_image: str | None) -> tuple[str, str | None]:
+    """Öffnet die einzelne Pressemitteilungs-Seite und liest die echte
+    Meta-Beschreibung sowie das große Vorschaubild (og:image) aus - beides
+    gibt es nur auf der Detailseite, nicht auf der Übersichtsseite."""
+    page = context.new_page()
+    summary = fallback_summary
+    image = fallback_image
+    try:
+        page.goto(url, wait_until="domcontentloaded", timeout=30_000)
+
+        for selector in (
+            'meta[property="og:description"]',
+            'meta[name="description"]',
+            'meta[name="twitter:description"]',
+        ):
+            el = page.query_selector(selector)
+            if el is not None:
+                content = (el.get_attribute("content") or "").strip()
+                if content:
+                    summary = content
+                    break
+
+        for selector in ('meta[property="og:image"]', 'meta[name="twitter:image"]'):
+            el = page.query_selector(selector)
+            if el is not None:
+                content = (el.get_attribute("content") or "").strip()
+                if content:
+                    image = urljoin(url, content)
+                    break
+    except PlaywrightTimeoutError:
+        log(f"Warnung: Timeout beim Laden von {url} für Zusammenfassung/Bild.")
+    except Exception as exc:  # defensiv: eine fehlgeschlagene Detailseite soll den ganzen Lauf nicht kippen
+        log(f"Warnung: Konnte Details für {url} nicht laden ({exc}).")
+    finally:
+        page.close()
+    return summary, image
+
+
+def guess_image_type(image_url: str) -> str:
+    lower = image_url.lower()
+    if lower.endswith(".png"):
+        return "image/png"
+    if lower.endswith(".webp"):
+        return "image/webp"
+    if lower.endswith(".gif"):
+        return "image/gif"
+    return "image/jpeg"
 
 
 def build_rss(items: list[dict]) -> str:
@@ -159,18 +255,34 @@ def build_rss(items: list[dict]) -> str:
     for it in items:
         guid = hashlib.sha1(it["url"].encode("utf-8")).hexdigest()
         pub_date = format_datetime(parse_date(it.get("date")))
+
+        image_tags = ""
+        image_url = it.get("image")
+        if image_url:
+            image_url_esc = escape(image_url)
+            image_type = guess_image_type(image_url)
+            # Zwei Varianten gleichzeitig, weil unterschiedliche RSS-Reader
+            # (u.a. Power Automate) unterschiedliche Felder auslesen:
+            # <enclosure> ist der RSS2.0-Standard, <media:thumbnail> das
+            # weiter verbreitete Media-RSS-Format.
+            image_tags = (
+                f'\n      <enclosure url="{image_url_esc}" type="{image_type}" length="0"/>'
+                f'\n      <media:thumbnail url="{image_url_esc}"/>'
+                f'\n      <media:content url="{image_url_esc}" medium="image"/>'
+            )
+
         rss_items.append(
             f"""    <item>
       <title>{escape(it['title'])}</title>
       <link>{escape(it['url'])}</link>
       <guid isPermaLink="false">{guid}</guid>
       <pubDate>{pub_date}</pubDate>
-      <description>{escape(it.get('summary') or '')}</description>
+      <description>{escape(it.get('summary') or '')}</description>{image_tags}
     </item>"""
         )
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>{escape(FEED_TITLE)}</title>
     <link>{escape(SOURCE_URL)}</link>
@@ -193,13 +305,24 @@ def main() -> int:
         log(f"Lade {SOURCE_URL} ...")
         page.goto(SOURCE_URL, wait_until="networkidle", timeout=60_000)
         items = extract_items(page)
+
+        if not items:
+            log("FEHLER: Keine Pressemitteilungen gefunden. Selektoren in scrape.py prüfen.")
+            browser.close()
+            return 1
+
+        log(f"{len(items)} Pressemitteilungen gefunden. Hole echte Zusammenfassungen & Bilder von den Detailseiten ...")
+        context = page.context
+        for it in items:
+            summary, image = fetch_details(
+                context, it["url"], fallback_summary=it.get("byline", ""), fallback_image=it.get("image")
+            )
+            it["summary"] = summary
+            it["image"] = image
+
         browser.close()
 
-    if not items:
-        log("FEHLER: Keine Pressemitteilungen gefunden. Selektoren in scrape.py prüfen.")
-        return 1
-
-    log(f"{len(items)} Pressemitteilungen gefunden.")
+    log(f"{len(items)} Pressemitteilungen fertig aufbereitet.")
     rss = build_rss(items)
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(rss, encoding="utf-8")
