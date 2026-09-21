@@ -298,10 +298,16 @@ def build_rss(items: list[dict]) -> str:
 def main() -> int:
     with sync_playwright() as p:
         browser = p.chromium.launch()
-        page = browser.new_page(user_agent=(
+        # Wichtig: einen expliziten Kontext anlegen statt browser.new_page().
+        # browser.new_page() erzeugt intern einen Kontext, der NUR eine
+        # einzige Seite erlaubt - das würde später beim Öffnen der
+        # Detailseiten (context.new_page()) mit "Please use
+        # browser.new_context()" crashen.
+        context = browser.new_context(user_agent=(
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
             "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
         ))
+        page = context.new_page()
         log(f"Lade {SOURCE_URL} ...")
         page.goto(SOURCE_URL, wait_until="networkidle", timeout=60_000)
         items = extract_items(page)
@@ -312,7 +318,6 @@ def main() -> int:
             return 1
 
         log(f"{len(items)} Pressemitteilungen gefunden. Hole echte Zusammenfassungen & Bilder von den Detailseiten ...")
-        context = page.context
         for it in items:
             summary, image = fetch_details(
                 context, it["url"], fallback_summary=it.get("byline", ""), fallback_image=it.get("image")
