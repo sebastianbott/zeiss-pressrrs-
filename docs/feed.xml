@@ -1,130 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>ZEISS Press Releases</title>
     <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases.html</link>
     <description>Automatisch erzeugter RSS-Feed aus den ZEISS Pressemitteilungen.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 21 Sep 2026 12:41:19 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 15:20:14 +0000</lastBuildDate>
     <item>
       <title>ZEISS expands retinal imaging portfolio with new ZEISS ALTA DUO 300</title>
       <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/alta-duo-300.html</link>
       <guid isPermaLink="false">0a0644fddd8f0c2b31f29cec20cf496544731b26</guid>
-      <pubDate>Mon, 21 Sep 2026 12:41:19 +0000</pubDate>
-      <description>PUBLISHED ON,
-SEP 17, 2026
-,
-.</description>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Discover how ZEISS ALTA DUO 300 combines automated OCT and fundus imaging to support efficient, consistent retinal assessment.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-alta-duo_300_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-alta-duo_300_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-alta-duo_300_prev.jpg" medium="image"/>
     </item>
     <item>
       <title>ZEISS VersaXRM 5 Insight accelerates hybrid 3D X-ray imaging</title>
       <link>https://www.zeiss.com/microscopy/en/about-us/newsroom/press-releases/2026/versaxrm-5-insight.html</link>
       <guid isPermaLink="false">e9eb0c35b508fed3544f03511cc42521dc0d189a</guid>
-      <pubDate>Mon, 21 Sep 2026 12:41:19 +0000</pubDate>
-      <description>PUBLISHED ON,
-SEP 14, 2026
-,
-.</description>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <description>ZEISS VersaXRM 5 Insight combines microCT and X-ray microscopy for efficient, nondestructive 3D imaging with guided workflows.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/microscopy/versaxrm_5_insight_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/microscopy/versaxrm_5_insight_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/microscopy/versaxrm_5_insight_prev.jpg" medium="image"/>
     </item>
     <item>
       <title>ZEISS announces commercial availability of bitoric hydrophobic monofocal IOL - the ZEISS AT LUCIA toric 721P</title>
       <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/at-lucia-toric-721p.html</link>
       <guid isPermaLink="false">2569fdcab98161eab75b8c81a14b9a83848520ec</guid>
-      <pubDate>Mon, 21 Sep 2026 12:41:19 +0000</pubDate>
-      <description>PUBLISHED ON,
-SEP 10, 2026
-,
-.</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Discover the ZEISS AT LUCIA toric 721P, the world’s first bitoric hydrophobic monofocal IOL for cataract surgery and astigmatism correction.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-at-lucia-toric-721p_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-at-lucia-toric-721p_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-at-lucia-toric-721p_prev.jpg" medium="image"/>
     </item>
     <item>
       <title>ZEISS elevates ophthalmic workflows at ESCRS with new surgical and digital advancements</title>
       <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/escrs.html</link>
       <guid isPermaLink="false">fbc1e40eed2bf73543d44250b369dcc7d9f9829a</guid>
-      <pubDate>Mon, 21 Sep 2026 12:41:19 +0000</pubDate>
-      <description>PUBLISHED ON,
-SEP 03, 2026
-,
-.</description>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Discover ZEISS innovations in IOLs, digital cataract planning, laser vision correction, screening and diagnostics at ESCRS 2026.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_surgery_planner_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_surgery_planner_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_surgery_planner_prev.jpg" medium="image"/>
     </item>
     <item>
       <title>ZEISS Joins Forces with IIT-Madras Research Park to Launch ZEISS Innovation Hub</title>
       <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases/2026/innovation-hub-chennai.html</link>
       <guid isPermaLink="false">d4b84f0677e7e0cb58208ccad9fb94b159d90034</guid>
-      <pubDate>Mon, 21 Sep 2026 12:41:19 +0000</pubDate>
-      <description>PUBLISHED ON,
-SEP 03, 2026
-,
-.</description>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <description>ZEISS and IIT Madras Research Park launch an Innovation Hub in Chennai, India to connect research, startups and industry and accelerate scalable deep-tech solutions.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/awards-and-events/zeiss_innovation_hub_chennai_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/awards-and-events/zeiss_innovation_hub_chennai_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/awards-and-events/zeiss_innovation_hub_chennai_prev.jpg" medium="image"/>
     </item>
     <item>
       <title>ZEISS at SEMICON Taiwan 2026</title>
       <link>https://www.zeiss.com/semiconductor-manufacturing-technology/news-and-events/smt-press-releases/2026/semicon-taiwan.html</link>
       <guid isPermaLink="false">7d486586b0dc8159cf319f1a85bd4a4e70f36b61</guid>
-      <pubDate>Mon, 21 Sep 2026 12:41:19 +0000</pubDate>
-      <description>PUBLISHED ON,
-SEP 02, 2026
-,
-.</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <description>ZEISS SMT at SEMICON Taiwan 2026 showcases advanced packaging, metrology and inspection solutions that help chipmakers achieve precision and process stability.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/semiconductor-manufacturing-technology/zeiss_dune_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/semiconductor-manufacturing-technology/zeiss_dune_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/semiconductor-manufacturing-technology/zeiss_dune_prev.jpg" medium="image"/>
     </item>
     <item>
       <title>ZEISS debuts DORC EVA NEXUS for cataract surgery at ESCRS</title>
       <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/dorc-eva-nexus-cataract.html</link>
       <guid isPermaLink="false">2a3caf6b02015f2852102c3b0db07e93d8ad6e4e</guid>
-      <pubDate>Mon, 21 Sep 2026 12:41:19 +0000</pubDate>
-      <description>PUBLISHED ON,
-AUG 27, 2026
-,
-.</description>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Discover the DORC EVA NEXUS cataract configuration from ZEISS, designed to support streamlined performance, stability and control in surgery.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/dorc-eva-nexus-for-cataract-surgery_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/dorc-eva-nexus-for-cataract-surgery_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/dorc-eva-nexus-for-cataract-surgery_prev.jpg" medium="image"/>
     </item>
     <item>
       <title>ZEISS CLINIC 360 receives FDA 510k clearance, amplifying patient care through simplified clinical insights</title>
       <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/zeiss-clinic-360.html</link>
       <guid isPermaLink="false">1a1d1c859cd359418b61a1503d7145df2748e3da</guid>
-      <pubDate>Mon, 21 Sep 2026 12:41:19 +0000</pubDate>
-      <description>PUBLISHED ON,
-AUG 19, 2026
-,
-.</description>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <description>ZEISS CLINIC 360 receives FDA 510k clearance. All-in-one browser-based software solution aggregates clinical data at scale and powers advanced analytics for streamlined ophthalmic workflows.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/clinic-360_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/clinic-360_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/clinic-360_prev.jpg" medium="image"/>
     </item>
     <item>
       <title>ZEISS Spectroscopy supports cement industry in reducing fossil fuel use</title>
       <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases/2026/sparc-cement.html</link>
       <guid isPermaLink="false">ef1b40b8bc4a299cf1c486cacba3f5f7c7894d08</guid>
-      <pubDate>Mon, 21 Sep 2026 12:41:19 +0000</pubDate>
-      <description>PUBLISHED ON,
-AUG 13, 2026
-,
-.</description>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <description>ZEISS SPARC uses inline spectroscopy to measure RDF and SRF quality in real time, helping cement plants stabilize combustion and reduce fossil fuel use now.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/spectroscopy/rotary_kiln_cement_plant.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/spectroscopy/rotary_kiln_cement_plant.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/spectroscopy/rotary_kiln_cement_plant.jpg" medium="image"/>
     </item>
     <item>
       <title>International recognition for ZEISS Planetariums Show</title>
       <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases/2026/into-the-infinite.html</link>
       <guid isPermaLink="false">e128cf3c0b977cd23eea6131609e9512110bc179</guid>
-      <pubDate>Mon, 21 Sep 2026 12:41:19 +0000</pubDate>
-      <description>PUBLISHED ON,
-AUG 11, 2026
-,
-.</description>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <description>ZEISS Into the Infinite is an immersive fulldome and VR show that received international awards in 2026 and makes science accessible to audiences in a new way.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/awards-and-events/into-the-infinite-fulldome-poster_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/awards-and-events/into-the-infinite-fulldome-poster_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/awards-and-events/into-the-infinite-fulldome-poster_prev.jpg" medium="image"/>
     </item>
     <item>
       <title>Carl Zeiss Meditec with stable revenue development on a currency-adjusted basis after nine months of 2025/26</title>
       <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/statement-q3-fy-2025-26.html</link>
       <guid isPermaLink="false">43704cbeec057adad79196b2cce6e9c8c316db9d</guid>
-      <pubDate>Mon, 21 Sep 2026 12:41:19 +0000</pubDate>
-      <description>PUBLISHED ON,
-AUG 06, 2026
-,
-.</description>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Order backlog slightly higher than at the end of fiscal year 2024/25</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/carl-zeiss-meditec-ag-jena.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/carl-zeiss-meditec-ag-jena.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/carl-zeiss-meditec-ag-jena.jpg" medium="image"/>
     </item>
     <item>
       <title>ZEISS invests in SeeTrue Technologies to advance eye-tracking solutions</title>
       <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases/2026/eye-tracking-seetrue.html</link>
       <guid isPermaLink="false">f54a88205b58db6f05ab76d84fe9d337f77dcf83</guid>
-      <pubDate>Mon, 21 Sep 2026 12:41:19 +0000</pubDate>
-      <description>PUBLISHED ON,
-AUG 05, 2026
-,
-.</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>The investment supports commercialization of ultra-low-power eye-sensing technology for next-generation optical systems and wearables</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/locations-forum-museum/locations/zeiss_tor.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/locations-forum-museum/locations/zeiss_tor.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/locations-forum-museum/locations/zeiss_tor.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
