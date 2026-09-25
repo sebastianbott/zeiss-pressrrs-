@@ -5,7 +5,17 @@
     <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases.html</link>
     <description>Automatisch erzeugter RSS-Feed aus den ZEISS Pressemitteilungen.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Sep 2026 11:39:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 11:44:54 +0000</lastBuildDate>
+    <item>
+      <title>From diagnosis to treatment, ZEISS introduces innovations across ZEISS Retina Workflow at EURETINA 2026</title>
+      <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/euretina.html</link>
+      <guid isPermaLink="false">d73b00a3157810f6214b9d3ad7ce2233a0ae89a6</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <description>ZEISS introduces innovations in retinal imaging, surgical visualization and vitreoretinal surgery at EURETINA 2026, supporting connected and efficient care.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/med_opt_global_dorc_vitroretinal_dyes_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/med_opt_global_dorc_vitroretinal_dyes_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/med_opt_global_dorc_vitroretinal_dyes_prev.jpg" medium="image"/>
+    </item>
     <item>
       <title>ZEISS expands retinal imaging portfolio with new ZEISS ALTA DUO 300</title>
       <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/alta-duo-300.html</link>
@@ -115,16 +125,6 @@
       <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/carl-zeiss-meditec-ag-jena.jpg" type="image/jpeg" length="0"/>
       <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/carl-zeiss-meditec-ag-jena.jpg"/>
       <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/carl-zeiss-meditec-ag-jena.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>ZEISS invests in SeeTrue Technologies to advance eye-tracking solutions</title>
-      <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases/2026/eye-tracking-seetrue.html</link>
-      <guid isPermaLink="false">f54a88205b58db6f05ab76d84fe9d337f77dcf83</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description>The investment supports commercialization of ultra-low-power eye-sensing technology for next-generation optical systems and wearables</description>
-      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/locations-forum-museum/locations/zeiss_tor.jpg" type="image/jpeg" length="0"/>
-      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/locations-forum-museum/locations/zeiss_tor.jpg"/>
-      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/locations-forum-museum/locations/zeiss_tor.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
