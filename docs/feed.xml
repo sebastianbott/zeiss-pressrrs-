@@ -5,7 +5,17 @@
     <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases.html</link>
     <description>Automatisch erzeugter RSS-Feed aus den ZEISS Pressemitteilungen.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Oct 2026 13:04:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 12:25:29 +0000</lastBuildDate>
+    <item>
+      <title>ZEISS Group appoints Axel Christian as President of ZEISS North America</title>
+      <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases/2026/north-america-organization.html</link>
+      <guid isPermaLink="false">b79956914ca1e7068440203684cc1e88d97749b3</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <description>ZEISS unites its US and Canada activities under ZEISS North America. Axel Christian will lead regional collaboration, innovation, and growth.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/people/axel-christian_president-of-zeiss-north-america_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/people/axel-christian_president-of-zeiss-north-america_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/people/axel-christian_president-of-zeiss-north-america_prev.jpg" medium="image"/>
+    </item>
     <item>
       <title>Change in leadership of Corporate Human Resources at the ZEISS Group</title>
       <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases/2026/ingolf-thom-corporate-hr.html</link>
@@ -115,16 +125,6 @@
       <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/dorc-eva-nexus-for-cataract-surgery_prev.jpg" type="image/jpeg" length="0"/>
       <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/dorc-eva-nexus-for-cataract-surgery_prev.jpg"/>
       <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/dorc-eva-nexus-for-cataract-surgery_prev.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>ZEISS CLINIC 360 receives FDA 510k clearance, amplifying patient care through simplified clinical insights</title>
-      <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/zeiss-clinic-360.html</link>
-      <guid isPermaLink="false">1a1d1c859cd359418b61a1503d7145df2748e3da</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-      <description>ZEISS CLINIC 360 receives FDA 510k clearance. All-in-one browser-based software solution aggregates clinical data at scale and powers advanced analytics for streamlined ophthalmic workflows.</description>
-      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/clinic-360_prev.jpg" type="image/jpeg" length="0"/>
-      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/clinic-360_prev.jpg"/>
-      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/clinic-360_prev.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
