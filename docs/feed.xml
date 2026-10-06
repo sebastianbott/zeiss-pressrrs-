@@ -5,7 +5,17 @@
     <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases.html</link>
     <description>Automatisch erzeugter RSS-Feed aus den ZEISS Pressemitteilungen.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2026 14:27:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 13:15:06 +0000</lastBuildDate>
+    <item>
+      <title>ZEISS demonstrates new digital and visual enhancements across ophthalmic workflows at AAO</title>
+      <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/zeiss-at-aao.html</link>
+      <guid isPermaLink="false">cafd5992b2f88e6a9a2ebe2cf8fed75f9b9633cb</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Explore ZEISS innovations in connected workflows, surgical visualization, diagnostics and digital clinical management at the AAO annual meeting.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_veracity_surgery_planner_aao_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_veracity_surgery_planner_aao_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_veracity_surgery_planner_aao_prev.jpg" medium="image"/>
+    </item>
     <item>
       <title>ZEISS Group appoints Axel Christian as President of ZEISS North America</title>
       <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases/2026/north-america-organization.html</link>
@@ -115,16 +125,6 @@
       <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/semiconductor-manufacturing-technology/zeiss_dune_prev.jpg" type="image/jpeg" length="0"/>
       <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/semiconductor-manufacturing-technology/zeiss_dune_prev.jpg"/>
       <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/semiconductor-manufacturing-technology/zeiss_dune_prev.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>ZEISS debuts DORC EVA NEXUS for cataract surgery at ESCRS</title>
-      <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/dorc-eva-nexus-cataract.html</link>
-      <guid isPermaLink="false">2a3caf6b02015f2852102c3b0db07e93d8ad6e4e</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Discover the DORC EVA NEXUS cataract configuration from ZEISS, designed to support streamlined performance, stability and control in surgery.</description>
-      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/dorc-eva-nexus-for-cataract-surgery_prev.jpg" type="image/jpeg" length="0"/>
-      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/dorc-eva-nexus-for-cataract-surgery_prev.jpg"/>
-      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/dorc-eva-nexus-for-cataract-surgery_prev.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
