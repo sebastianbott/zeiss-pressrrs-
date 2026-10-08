@@ -5,7 +5,27 @@
     <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases.html</link>
     <description>Automatisch erzeugter RSS-Feed aus den ZEISS Pressemitteilungen.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 13:14:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 13:20:39 +0000</lastBuildDate>
+    <item>
+      <title>ZEISS acquires Ceres Holographics to accelerate holography industrialization</title>
+      <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases/2026/acquisition-ceres-holographics.html</link>
+      <guid isPermaLink="false">80c85cdc96c60191115049287e18281ee1304a31</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description>ZEISS combines its ProSight platform with Ceres Holographics’ innovations to accelerate holographic windshield displays and expand market applications</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/people/zeiss-microoptics-and-ceres-holographics-representatives_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/people/zeiss-microoptics-and-ceres-holographics-representatives_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/people/zeiss-microoptics-and-ceres-holographics-representatives_prev.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>ZEISS INNOVATION SUMMIT 2026 brings together international experts from industry and research in Berlin</title>
+      <link>https://www.zeiss.com/metrology/en/about-us/newsroom/2026/zeiss-innovation-summit-2026.html</link>
+      <guid isPermaLink="false">3a8ee66d306d82cb62f6ec1f90eeeb7ab1505ca4</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Meet international experts in Berlin to explore AI, automation, metrology, and digital transformation across manufacturing, research, and life sciences.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/awards-and-events/innovation_summit_2026_opening_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/awards-and-events/innovation_summit_2026_opening_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/awards-and-events/innovation_summit_2026_opening_prev.jpg" medium="image"/>
+    </item>
     <item>
       <title>ZEISS demonstrates new digital and visual enhancements across ophthalmic workflows at AAO</title>
       <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/zeiss-at-aao.html</link>
@@ -105,26 +125,6 @@
       <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_surgery_planner_prev.jpg" type="image/jpeg" length="0"/>
       <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_surgery_planner_prev.jpg"/>
       <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_surgery_planner_prev.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>ZEISS Joins Forces with IIT-Madras Research Park to Launch ZEISS Innovation Hub</title>
-      <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases/2026/innovation-hub-chennai.html</link>
-      <guid isPermaLink="false">d4b84f0677e7e0cb58208ccad9fb94b159d90034</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-      <description>ZEISS and IIT Madras Research Park launch an Innovation Hub in Chennai, India to connect research, startups and industry and accelerate scalable deep-tech solutions.</description>
-      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/awards-and-events/zeiss_innovation_hub_chennai_prev.jpg" type="image/jpeg" length="0"/>
-      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/awards-and-events/zeiss_innovation_hub_chennai_prev.jpg"/>
-      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/awards-and-events/zeiss_innovation_hub_chennai_prev.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>ZEISS at SEMICON Taiwan 2026</title>
-      <link>https://www.zeiss.com/semiconductor-manufacturing-technology/news-and-events/smt-press-releases/2026/semicon-taiwan.html</link>
-      <guid isPermaLink="false">7d486586b0dc8159cf319f1a85bd4a4e70f36b61</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-      <description>ZEISS SMT at SEMICON Taiwan 2026 showcases advanced packaging, metrology and inspection solutions that help chipmakers achieve precision and process stability.</description>
-      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/semiconductor-manufacturing-technology/zeiss_dune_prev.jpg" type="image/jpeg" length="0"/>
-      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/semiconductor-manufacturing-technology/zeiss_dune_prev.jpg"/>
-      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/semiconductor-manufacturing-technology/zeiss_dune_prev.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
