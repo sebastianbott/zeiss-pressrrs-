@@ -5,7 +5,17 @@
     <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases.html</link>
     <description>Automatisch erzeugter RSS-Feed aus den ZEISS Pressemitteilungen.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Oct 2026 12:41:21 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 15:13:56 +0000</lastBuildDate>
+    <item>
+      <title>ZEISS strengthens advanced packaging portfolio with solutions for inline X-ray inspection and wafer warpage correction</title>
+      <link>https://www.zeiss.com/semiconductor-manufacturing-technology/news-and-events/smt-press-releases/2026/semicon-west.html</link>
+      <guid isPermaLink="false">eb52b9c56a584b5b78afc28aa07841176ca82c36</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description>ZEISS presents solutions for inline 3D X-ray inspection and wafer shape control at SEMICON West for advanced semiconductor manufacturing.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/semiconductor-manufacturing-technology/zeiss-nlx_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/semiconductor-manufacturing-technology/zeiss-nlx_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/semiconductor-manufacturing-technology/zeiss-nlx_prev.jpg" medium="image"/>
+    </item>
     <item>
       <title>ZEISS acquires Ceres Holographics to accelerate holography industrialization</title>
       <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases/2026/acquisition-ceres-holographics.html</link>
@@ -115,16 +125,6 @@
       <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-at-lucia-toric-721p_prev.jpg" type="image/jpeg" length="0"/>
       <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-at-lucia-toric-721p_prev.jpg"/>
       <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-at-lucia-toric-721p_prev.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>ZEISS elevates ophthalmic workflows at ESCRS with new surgical and digital advancements</title>
-      <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/escrs.html</link>
-      <guid isPermaLink="false">fbc1e40eed2bf73543d44250b369dcc7d9f9829a</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Discover ZEISS innovations in IOLs, digital cataract planning, laser vision correction, screening and diagnostics at ESCRS 2026.</description>
-      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_surgery_planner_prev.jpg" type="image/jpeg" length="0"/>
-      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_surgery_planner_prev.jpg"/>
-      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_surgery_planner_prev.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
