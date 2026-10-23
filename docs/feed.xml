@@ -5,7 +5,17 @@
     <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases.html</link>
     <description>Automatisch erzeugter RSS-Feed aus den ZEISS Pressemitteilungen.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 11:48:46 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 11:31:24 +0000</lastBuildDate>
+    <item>
+      <title>ZEISS announces availability of CT LUCIA 621P in Japan, expanding its broad ZEISS Cataract Workflow</title>
+      <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/ct-lucia-621p-japan.html</link>
+      <guid isPermaLink="false">4f9fc5d53278814136ba6ca6845676667279cc28</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description>ZEISS CT LUCIA 621P is now available in Japan, expanding the Cataract Workflow with a monofocal IOL designed to support stability and consistent visual outcomes.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-ct-lucia-621p-frontal-image_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-ct-lucia-621p-frontal-image_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-ct-lucia-621p-frontal-image_prev.jpg" medium="image"/>
+    </item>
     <item>
       <title>ZEISS strengthens advanced packaging portfolio with solutions for inline X-ray inspection and wafer warpage correction</title>
       <link>https://www.zeiss.com/semiconductor-manufacturing-technology/news-and-events/smt-press-releases/2026/semicon-west.html</link>
@@ -115,16 +125,6 @@
       <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/microscopy/versaxrm_5_insight_prev.jpg" type="image/jpeg" length="0"/>
       <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/microscopy/versaxrm_5_insight_prev.jpg"/>
       <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/microscopy/versaxrm_5_insight_prev.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>ZEISS announces commercial availability of bitoric hydrophobic monofocal IOL - the ZEISS AT LUCIA toric 721P</title>
-      <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/at-lucia-toric-721p.html</link>
-      <guid isPermaLink="false">2569fdcab98161eab75b8c81a14b9a83848520ec</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Discover the ZEISS AT LUCIA toric 721P, the world’s first bitoric hydrophobic monofocal IOL for cataract surgery and astigmatism correction.</description>
-      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-at-lucia-toric-721p_prev.jpg" type="image/jpeg" length="0"/>
-      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-at-lucia-toric-721p_prev.jpg"/>
-      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-at-lucia-toric-721p_prev.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
