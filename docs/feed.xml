@@ -5,7 +5,17 @@
     <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases.html</link>
     <description>Automatisch erzeugter RSS-Feed aus den ZEISS Pressemitteilungen.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 11:16:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 12:50:17 +0000</lastBuildDate>
+    <item>
+      <title>Bronwyn Brophy O’Connor to become CEO of Carl Zeiss Meditec Group in December 2026</title>
+      <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/start-date-bronwyn-brophy-oconnor.html</link>
+      <guid isPermaLink="false">b5a0b4b333daedd74f4574f5d67da3819a134651</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description>International medtech executive brings extensive experience in customer-focused innovation and business transformation.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/carl-zeiss-meditec-ag-jena.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/carl-zeiss-meditec-ag-jena.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/carl-zeiss-meditec-ag-jena.jpg" medium="image"/>
+    </item>
     <item>
       <title>ZEISS announces availability of CT LUCIA 621P in Japan, expanding its broad ZEISS Cataract Workflow</title>
       <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/ct-lucia-621p-japan.html</link>
@@ -115,16 +125,6 @@
       <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-alta-duo_300_prev.jpg" type="image/jpeg" length="0"/>
       <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-alta-duo_300_prev.jpg"/>
       <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-alta-duo_300_prev.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>ZEISS VersaXRM 5 Insight accelerates hybrid 3D X-ray imaging</title>
-      <link>https://www.zeiss.com/microscopy/en/about-us/newsroom/press-releases/2026/versaxrm-5-insight.html</link>
-      <guid isPermaLink="false">e9eb0c35b508fed3544f03511cc42521dc0d189a</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-      <description>ZEISS VersaXRM 5 Insight combines microCT and X-ray microscopy for efficient, nondestructive 3D imaging with guided workflows.</description>
-      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/microscopy/versaxrm_5_insight_prev.jpg" type="image/jpeg" length="0"/>
-      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/microscopy/versaxrm_5_insight_prev.jpg"/>
-      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/microscopy/versaxrm_5_insight_prev.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
