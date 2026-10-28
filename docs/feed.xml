@@ -5,7 +5,27 @@
     <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases.html</link>
     <description>Automatisch erzeugter RSS-Feed aus den ZEISS Pressemitteilungen.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 12:02:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 12:43:18 +0000</lastBuildDate>
+    <item>
+      <title>ZEISS invests in Illumion to support next-generation battery imaging technology</title>
+      <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases/2026/battery-imaging-illumion.html</link>
+      <guid isPermaLink="false">847d4c44da1a3f577977b2b270a268719a3c9423</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <description>ZEISS Ventures invests in Illumion’s battery imaging technology, helping advance real-time particle analysis and tools for battery research and development.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/zeiss-backs-illumion-s-technology_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/zeiss-backs-illumion-s-technology_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/zeiss-backs-illumion-s-technology_prev.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>Sapporo Hakuyo-kai Hospital Certified as a “ZEISS Reference Center”</title>
+      <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/neurosurgery-training-hub.html</link>
+      <guid isPermaLink="false">eb03aebee7b8e4781ea1453fd60978d96f667a57</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Sapporo Hakuyo-kai Hospital joins the ZEISS Reference Center network, creating a hub for practical surgical microscopy education and next-generation neurosurgeon training.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-reference-center-sapporo-japan_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-reference-center-sapporo-japan_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-reference-center-sapporo-japan_prev.jpg" medium="image"/>
+    </item>
     <item>
       <title>Bronwyn Brophy O’Connor to become CEO of Carl Zeiss Meditec Group in December 2026</title>
       <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/start-date-bronwyn-brophy-oconnor.html</link>
@@ -105,26 +125,6 @@
       <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/pno/news.jpg" type="image/jpeg" length="0"/>
       <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/pno/news.jpg"/>
       <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/pno/news.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>From diagnosis to treatment, ZEISS introduces innovations across ZEISS Retina Workflow at EURETINA 2026</title>
-      <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/euretina.html</link>
-      <guid isPermaLink="false">d73b00a3157810f6214b9d3ad7ce2233a0ae89a6</guid>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-      <description>ZEISS introduces innovations in retinal imaging, surgical visualization and vitreoretinal surgery at EURETINA 2026, supporting connected and efficient care.</description>
-      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/med_opt_global_dorc_vitroretinal_dyes_prev.jpg" type="image/jpeg" length="0"/>
-      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/med_opt_global_dorc_vitroretinal_dyes_prev.jpg"/>
-      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/med_opt_global_dorc_vitroretinal_dyes_prev.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>ZEISS expands retinal imaging portfolio with new ZEISS ALTA DUO 300</title>
-      <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/alta-duo-300.html</link>
-      <guid isPermaLink="false">0a0644fddd8f0c2b31f29cec20cf496544731b26</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Discover how ZEISS ALTA DUO 300 combines automated OCT and fundus imaging to support efficient, consistent retinal assessment.</description>
-      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-alta-duo_300_prev.jpg" type="image/jpeg" length="0"/>
-      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-alta-duo_300_prev.jpg"/>
-      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-alta-duo_300_prev.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
