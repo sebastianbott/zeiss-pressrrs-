@@ -5,7 +5,17 @@
     <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases.html</link>
     <description>Automatisch erzeugter RSS-Feed aus den ZEISS Pressemitteilungen.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 15:39:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 14:03:14 +0000</lastBuildDate>
+    <item>
+      <title>ZEISS AURA® analyzer brings NIR analysis directly to feed</title>
+      <link>https://www.zeiss.com/photonics-and-optics/en/home/content/newsroom/news-overview/2026/portable-nir-feed-analysis.html</link>
+      <guid isPermaLink="false">3ad6fa05cdbf9c72d9c49962af640340fe3f8604</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Get reliable feed analysis in seconds: the portable ZEISS AURA® analyzer brings NIR measurement to the sampling site to support ration planning</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/pno/zeiss_aura_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/pno/zeiss_aura_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/pno/zeiss_aura_prev.jpg" medium="image"/>
+    </item>
     <item>
       <title>ZEISS invests in Illumion to support next-generation battery imaging technology</title>
       <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases/2026/battery-imaging-illumion.html</link>
@@ -115,16 +125,6 @@
       <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/logo/zeiss-fahnen-quer.jpg" type="image/jpeg" length="0"/>
       <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/logo/zeiss-fahnen-quer.jpg"/>
       <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/logo/zeiss-fahnen-quer.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>ZEISS Outdoor Launches with a New Corporate Structure</title>
-      <link>https://www.zeiss.com/photonics-and-optics/en/home/content/newsroom/news-overview/2026/outdoor-valyra.html</link>
-      <guid isPermaLink="false">fb93eb95c183c7b629eabb85d824b61e16085bcf</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-      <description>ZEISS Outdoor becomes VALYRA, an independent company continuing to develop and market ZEISS Outdoor optics and digital solutions worldwide</description>
-      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/pno/news.jpg" type="image/jpeg" length="0"/>
-      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/pno/news.jpg"/>
-      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/pno/news.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
