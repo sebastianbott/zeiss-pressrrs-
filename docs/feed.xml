@@ -5,7 +5,17 @@
     <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases.html</link>
     <description>Automatisch erzeugter RSS-Feed aus den ZEISS Pressemitteilungen.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 16:04:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 14:47:22 +0000</lastBuildDate>
+    <item>
+      <title>ZEISS to expand myopia solutions in China with NMPA’s approval of ZEISS PT LUNANA phakic intraocular lens</title>
+      <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/pt-lunana.html</link>
+      <guid isPermaLink="false">afa52b83464d6a3a67041b696ac317111c3c484d</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <description>NMPA approval of ZEISS PT LUNANA expands myopia correction options in China, combining next-generation optics with local development and manufacturing.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-pt-lunana_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-pt-lunana_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss-pt-lunana_prev.jpg" medium="image"/>
+    </item>
     <item>
       <title>ZEISS TALOS sets a new benchmark in automated digital inspection</title>
       <link>https://www.zeiss.com/metrology/en/about-us/newsroom/2026/automated-inspection.html</link>
@@ -115,16 +125,6 @@
       <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/people/axel-christian_president-of-zeiss-north-america_prev.jpg" type="image/jpeg" length="0"/>
       <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/people/axel-christian_president-of-zeiss-north-america_prev.jpg"/>
       <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/people/axel-christian_president-of-zeiss-north-america_prev.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>Change in leadership of Corporate Human Resources at the ZEISS Group</title>
-      <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases/2026/ingolf-thom-corporate-hr.html</link>
-      <guid isPermaLink="false">1fcc546fa6e5ab81f50075756da1a69838486dea</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Ingolf Thom takes over Corporate Human Resources at ZEISS, bringing international leadership experience and expertise in strategic transformation.</description>
-      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/people/ingolf_thom_prev.jpg" type="image/jpeg" length="0"/>
-      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/people/ingolf_thom_prev.jpg"/>
-      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/people/ingolf_thom_prev.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
