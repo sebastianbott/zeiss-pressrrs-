@@ -5,7 +5,17 @@
     <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases.html</link>
     <description>Automatisch erzeugter RSS-Feed aus den ZEISS Pressemitteilungen.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 14:47:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 15:04:06 +0000</lastBuildDate>
+    <item>
+      <title>ZEISS INRADIA 3D brings computed tomography into the rhythm of high-volume production</title>
+      <link>https://www.zeiss.com/metrology/en/about-us/newsroom/2026/inline-ct-series-production.html</link>
+      <guid isPermaLink="false">2927cd8511b1674d2d1a1be4349dc7b3cf747896</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Discover how ZEISS INRADIA 3D combines fast inline CT, automated handling and AI analysis for reliable quality control in series production.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/industrial-metrology/2026/zeiss_inradia-3d_in-line_ct_solution_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/industrial-metrology/2026/zeiss_inradia-3d_in-line_ct_solution_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/industrial-metrology/2026/zeiss_inradia-3d_in-line_ct_solution_prev.jpg" medium="image"/>
+    </item>
     <item>
       <title>ZEISS to expand myopia solutions in China with NMPA’s approval of ZEISS PT LUNANA phakic intraocular lens</title>
       <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/pt-lunana.html</link>
@@ -115,16 +125,6 @@
       <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_veracity_surgery_planner_aao_prev.jpg" type="image/jpeg" length="0"/>
       <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_veracity_surgery_planner_aao_prev.jpg"/>
       <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_veracity_surgery_planner_aao_prev.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>ZEISS Group appoints Axel Christian as President of ZEISS North America</title>
-      <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases/2026/north-america-organization.html</link>
-      <guid isPermaLink="false">b79956914ca1e7068440203684cc1e88d97749b3</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <description>ZEISS unites its US and Canada activities under ZEISS North America. Axel Christian will lead regional collaboration, innovation, and growth.</description>
-      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/people/axel-christian_president-of-zeiss-north-america_prev.jpg" type="image/jpeg" length="0"/>
-      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/people/axel-christian_president-of-zeiss-north-america_prev.jpg"/>
-      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/people/axel-christian_president-of-zeiss-north-america_prev.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
