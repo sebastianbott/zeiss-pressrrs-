@@ -5,7 +5,17 @@
     <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases.html</link>
     <description>Automatisch erzeugter RSS-Feed aus den ZEISS Pressemitteilungen.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 15:32:17 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 15:39:38 +0000</lastBuildDate>
+    <item>
+      <title>ZEISS DuraMax 8/5/5 expands the possibilities for shop floor quality assurance</title>
+      <link>https://www.zeiss.com/metrology/en/about-us/newsroom/2026/duramax.html</link>
+      <guid isPermaLink="false">c1ddae674bc4a69c9990181dcf9bcf4ed6db02ce</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Discover how ZEISS DuraMax 8/5/5 brings a larger measuring range and scalable automation to reliable quality checks directly in production.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/industrial-metrology/2026/zeiss-duramax-855_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/industrial-metrology/2026/zeiss-duramax-855_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/industrial-metrology/2026/zeiss-duramax-855_prev.jpg" medium="image"/>
+    </item>
     <item>
       <title>ZEISS INRADIA 3D brings computed tomography into the rhythm of high-volume production</title>
       <link>https://www.zeiss.com/metrology/en/about-us/newsroom/2026/inline-ct-series-production.html</link>
@@ -115,16 +125,6 @@
       <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/awards-and-events/innovation_summit_2026_opening_prev.jpg" type="image/jpeg" length="0"/>
       <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/awards-and-events/innovation_summit_2026_opening_prev.jpg"/>
       <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/awards-and-events/innovation_summit_2026_opening_prev.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>ZEISS demonstrates new digital and visual enhancements across ophthalmic workflows at AAO</title>
-      <link>https://www.zeiss.com/meditec-ag/en/media-news/press-releases/2026/zeiss-at-aao.html</link>
-      <guid isPermaLink="false">cafd5992b2f88e6a9a2ebe2cf8fed75f9b9633cb</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Explore ZEISS innovations in connected workflows, surgical visualization, diagnostics and digital clinical management at the AAO annual meeting.</description>
-      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_veracity_surgery_planner_aao_prev.jpg" type="image/jpeg" length="0"/>
-      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_veracity_surgery_planner_aao_prev.jpg"/>
-      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/medical-technology/zeiss_veracity_surgery_planner_aao_prev.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
