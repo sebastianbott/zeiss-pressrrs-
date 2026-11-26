@@ -5,7 +5,17 @@
     <link>https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases.html</link>
     <description>Automatisch erzeugter RSS-Feed aus den ZEISS Pressemitteilungen.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 17:06:29 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 16:46:39 +0000</lastBuildDate>
+    <item>
+      <title>ZEISS expands software portfolio for automated inspections and connected quality processes</title>
+      <link>https://www.zeiss.com/metrology/en/about-us/newsroom/2026/industrial-quality-software.html</link>
+      <guid isPermaLink="false">3114fbb082b46aede9e5602d5a2863208bde9134</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Discover ZEISS software updates for AI-powered CT analysis, adaptive inspection scope and connected quality processes across locations.</description>
+      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/industrial-metrology/2026/zeiss-piweb-supply-chain-quality_prev.jpg" type="image/jpeg" length="0"/>
+      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/industrial-metrology/2026/zeiss-piweb-supply-chain-quality_prev.jpg"/>
+      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/products/industrial-metrology/2026/zeiss-piweb-supply-chain-quality_prev.jpg" medium="image"/>
+    </item>
     <item>
       <title>ZEISS DuraMax 8/5/5 expands the possibilities for shop floor quality assurance</title>
       <link>https://www.zeiss.com/metrology/en/about-us/newsroom/2026/duramax.html</link>
@@ -115,16 +125,6 @@
       <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/people/zeiss-microoptics-and-ceres-holographics-representatives_prev.jpg" type="image/jpeg" length="0"/>
       <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/people/zeiss-microoptics-and-ceres-holographics-representatives_prev.jpg"/>
       <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/people/zeiss-microoptics-and-ceres-holographics-representatives_prev.jpg" medium="image"/>
-    </item>
-    <item>
-      <title>ZEISS INNOVATION SUMMIT 2026 brings together international experts from industry and research in Berlin</title>
-      <link>https://www.zeiss.com/metrology/en/about-us/newsroom/2026/zeiss-innovation-summit-2026.html</link>
-      <guid isPermaLink="false">3a8ee66d306d82cb62f6ec1f90eeeb7ab1505ca4</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Meet international experts in Berlin to explore AI, automation, metrology, and digital transformation across manufacturing, research, and life sciences.</description>
-      <enclosure url="https://www.zeiss.com/content/dam/newsroom/pressphotos/awards-and-events/innovation_summit_2026_opening_prev.jpg" type="image/jpeg" length="0"/>
-      <media:thumbnail url="https://www.zeiss.com/content/dam/newsroom/pressphotos/awards-and-events/innovation_summit_2026_opening_prev.jpg"/>
-      <media:content url="https://www.zeiss.com/content/dam/newsroom/pressphotos/awards-and-events/innovation_summit_2026_opening_prev.jpg" medium="image"/>
     </item>
   </channel>
 </rss>
